@@ -229,6 +229,15 @@ ModelImporter:
     100446: StoreFronts2k.001
     100448: StoreFronts2k.002
     100450: Volcano
+    100452: Deck_Main.001
+    100454: Deck_Main.002
+    100456: Deck_Main.003
+    100458: GroundPatth2.001
+    100460: Ledge_FlatDown
+    100462: Plane.045
+    100464: Planter_Parking
+    100466: Rail_Flatdown
+    100468: Lot_West
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -455,6 +464,15 @@ ModelImporter:
     400446: StoreFronts2k.001
     400448: StoreFronts2k.002
     400450: Volcano
+    400452: Deck_Main.001
+    400454: Deck_Main.002
+    400456: Deck_Main.003
+    400458: GroundPatth2.001
+    400460: Ledge_FlatDown
+    400462: Plane.045
+    400464: Planter_Parking
+    400466: Rail_Flatdown
+    400468: Lot_West
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -471,6 +489,9 @@ ModelImporter:
     2100026: mat_frame
     2100028: mat_door
     2100030: mat_window
+    2100032: m_concrete_curb_grey
+    2100034: m_grass
+    2100036: TD_Checker
     2300000: BaseBolts
     2300002: BaseBolts.001
     2300004: BigBowl
@@ -676,6 +697,15 @@ ModelImporter:
     2300404: StoreFronts2k.001
     2300406: StoreFronts2k.002
     2300408: Volcano
+    2300410: Deck_Main.001
+    2300412: Deck_Main.002
+    2300414: Deck_Main.003
+    2300416: GroundPatth2.001
+    2300418: Ledge_FlatDown
+    2300420: Plane.045
+    2300422: Planter_Parking
+    2300424: Rail_Flatdown
+    2300426: Lot_West
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -881,6 +911,15 @@ ModelImporter:
     3300404: StoreFronts2k.001
     3300406: StoreFronts2k.002
     3300408: Volcano
+    3300410: Deck_Main.001
+    3300412: Deck_Main.002
+    3300414: Deck_Main.003
+    3300416: GroundPatth2.001
+    3300418: Ledge_FlatDown
+    3300420: Plane.045
+    3300422: Planter_Parking
+    3300424: Rail_Flatdown
+    3300426: Lot_West
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1086,6 +1125,15 @@ ModelImporter:
     4300404: Powerline.031
     4300406: Powerline.030
     4300408: building_116
+    4300410: Rail_Flatdown
+    4300412: Ledge_FlatDown
+    4300414: Planter_Parking
+    4300416: Plane.045
+    4300418: GroundPatth2.001
+    4300420: Deck_Main.001
+    4300422: Deck_Main.002
+    4300424: Deck_Main.003
+    4300426: Lot_West
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1291,6 +1339,15 @@ ModelImporter:
     6400404: StoreFronts2k.001
     6400406: StoreFronts2k.002
     6400408: Volcano
+    6400410: Deck_Main.001
+    6400412: Deck_Main.002
+    6400414: Deck_Main.003
+    6400416: GroundPatth2.001
+    6400418: Ledge_FlatDown
+    6400420: Plane.045
+    6400422: Planter_Parking
+    6400424: Rail_Flatdown
+    6400426: Lot_West
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
