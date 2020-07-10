@@ -238,6 +238,7 @@ ModelImporter:
     100464: Planter_Parking
     100466: Rail_Flatdown
     100468: Lot_West
+    100470: Empty
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -473,6 +474,7 @@ ModelImporter:
     400464: Planter_Parking
     400466: Rail_Flatdown
     400468: Lot_West
+    400470: Empty
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -492,6 +494,10 @@ ModelImporter:
     2100032: m_concrete_curb_grey
     2100034: m_grass
     2100036: TD_Checker
+    2100038: m_Concrete_Park_Grey
+    2100040: m_Concrete_Park_Red
+    2100042: m_Concrete_Park_Yellow
+    2100044: m_Metal_Blue
     2300000: BaseBolts
     2300002: BaseBolts.001
     2300004: BigBowl
@@ -1350,7 +1356,32 @@ ModelImporter:
     6400426: Lot_West
     20500000: //RootNode
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_Concrete_Park_Grey
+    second: {fileID: 2100000, guid: f1778534b69353d4bb78836f7db51b9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_Concrete_Park_Red
+    second: {fileID: 2100000, guid: 02761ef586e5e9747a32ad4dcc821541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_Concrete_Park_Yellow
+    second: {fileID: 2100000, guid: 444fe4812b92e944b8f8012fdefb6257, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_Metal_Blue
+    second: {fileID: 2100000, guid: 863d838f3b6b79c4a85bad3e1993e7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_grass
+    second: {fileID: 2100000, guid: e4ed48f9be2346d4d96632a7333a0d65, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
