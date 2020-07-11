@@ -246,6 +246,7 @@ ModelImporter:
     100480: BigBowl.Coping.004
     100482: BigBowl.Coping.005
     100484: BigBowl.Coping.006
+    100486: Deck_Main.010
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -489,6 +490,7 @@ ModelImporter:
     400480: BigBowl.Coping.004
     400482: BigBowl.Coping.005
     400484: BigBowl.Coping.006
+    400486: Deck_Main.010
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -733,6 +735,7 @@ ModelImporter:
     2300436: BigBowl.Coping.004
     2300438: BigBowl.Coping.005
     2300440: BigBowl.Coping.006
+    2300442: Deck_Main.010
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -954,6 +957,7 @@ ModelImporter:
     3300436: BigBowl.Coping.004
     3300438: BigBowl.Coping.005
     3300440: BigBowl.Coping.006
+    3300442: Deck_Main.010
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1175,6 +1179,7 @@ ModelImporter:
     4300436: BigBowl.Coping.004
     4300438: BigBowl.Coping.005
     4300440: BigBowl.Coping.006
+    4300442: Deck_Main.010
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1396,6 +1401,7 @@ ModelImporter:
     6400436: BigBowl.Coping.004
     6400438: BigBowl.Coping.005
     6400440: BigBowl.Coping.006
+    6400442: Deck_Main.010
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
