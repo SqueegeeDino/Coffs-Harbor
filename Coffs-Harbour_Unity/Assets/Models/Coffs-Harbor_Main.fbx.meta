@@ -239,6 +239,13 @@ ModelImporter:
     100466: Rail_Flatdown
     100468: Lot_West
     100470: Empty
+    100472: BigBowl.Coping
+    100474: BigBowl.Coping.001
+    100476: BigBowl.Coping.002
+    100478: BigBowl.Coping.003
+    100480: BigBowl.Coping.004
+    100482: BigBowl.Coping.005
+    100484: BigBowl.Coping.006
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -475,6 +482,13 @@ ModelImporter:
     400466: Rail_Flatdown
     400468: Lot_West
     400470: Empty
+    400472: BigBowl.Coping
+    400474: BigBowl.Coping.001
+    400476: BigBowl.Coping.002
+    400478: BigBowl.Coping.003
+    400480: BigBowl.Coping.004
+    400482: BigBowl.Coping.005
+    400484: BigBowl.Coping.006
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -712,6 +726,13 @@ ModelImporter:
     2300422: Planter_Parking
     2300424: Rail_Flatdown
     2300426: Lot_West
+    2300428: BigBowl.Coping
+    2300430: BigBowl.Coping.001
+    2300432: BigBowl.Coping.002
+    2300434: BigBowl.Coping.003
+    2300436: BigBowl.Coping.004
+    2300438: BigBowl.Coping.005
+    2300440: BigBowl.Coping.006
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -926,6 +947,13 @@ ModelImporter:
     3300422: Planter_Parking
     3300424: Rail_Flatdown
     3300426: Lot_West
+    3300428: BigBowl.Coping
+    3300430: BigBowl.Coping.001
+    3300432: BigBowl.Coping.002
+    3300434: BigBowl.Coping.003
+    3300436: BigBowl.Coping.004
+    3300438: BigBowl.Coping.005
+    3300440: BigBowl.Coping.006
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1140,6 +1168,13 @@ ModelImporter:
     4300422: Deck_Main.002
     4300424: Deck_Main.003
     4300426: Lot_West
+    4300428: BigBowl.Coping.001
+    4300430: BigBowl.Coping.002
+    4300432: BigBowl.Coping
+    4300434: BigBowl.Coping.003
+    4300436: BigBowl.Coping.004
+    4300438: BigBowl.Coping.005
+    4300440: BigBowl.Coping.006
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1354,6 +1389,13 @@ ModelImporter:
     6400422: Planter_Parking
     6400424: Rail_Flatdown
     6400426: Lot_West
+    6400428: BigBowl.Coping
+    6400430: BigBowl.Coping.001
+    6400432: BigBowl.Coping.002
+    6400434: BigBowl.Coping.003
+    6400436: BigBowl.Coping.004
+    6400438: BigBowl.Coping.005
+    6400440: BigBowl.Coping.006
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
