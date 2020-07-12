@@ -247,6 +247,18 @@ ModelImporter:
     100482: BigBowl.Coping.005
     100484: BigBowl.Coping.006
     100486: Deck_Main.010
+    100488: BananaPeel.Coping
+    100490: Coping
+    100492: EastTransition.Coping
+    100494: EastTransition.Coping.001
+    100496: Ledge_FlatDown.Grind
+    100498: Ledge_FlatDown.Grind.001
+    100500: Rail_FLatdown.Grind
+    100502: SouthPad_Curve.Grind
+    100504: SouthpadBank.Coping
+    100506: SouthQP.Coping
+    100508: Steepbank
+    100510: SteepBank.Coping
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -491,6 +503,18 @@ ModelImporter:
     400482: BigBowl.Coping.005
     400484: BigBowl.Coping.006
     400486: Deck_Main.010
+    400488: BananaPeel.Coping
+    400490: Coping
+    400492: EastTransition.Coping
+    400494: EastTransition.Coping.001
+    400496: Ledge_FlatDown.Grind
+    400498: Ledge_FlatDown.Grind.001
+    400500: Rail_FLatdown.Grind
+    400502: SouthPad_Curve.Grind
+    400504: SouthpadBank.Coping
+    400506: SouthQP.Coping
+    400508: Steepbank
+    400510: SteepBank.Coping
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -514,6 +538,7 @@ ModelImporter:
     2100040: m_Concrete_Park_Red
     2100042: m_Concrete_Park_Yellow
     2100044: m_Metal_Blue
+    2100046: M_Concrete_Sidewalk
     2300000: BaseBolts
     2300002: BaseBolts.001
     2300004: BigBowl
@@ -736,6 +761,18 @@ ModelImporter:
     2300438: BigBowl.Coping.005
     2300440: BigBowl.Coping.006
     2300442: Deck_Main.010
+    2300444: BananaPeel.Coping
+    2300446: Coping
+    2300448: EastTransition.Coping
+    2300450: EastTransition.Coping.001
+    2300452: Ledge_FlatDown.Grind
+    2300454: Ledge_FlatDown.Grind.001
+    2300456: Rail_FLatdown.Grind
+    2300458: SouthPad_Curve.Grind
+    2300460: SouthpadBank.Coping
+    2300462: SouthQP.Coping
+    2300464: Steepbank
+    2300466: SteepBank.Coping
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -958,6 +995,18 @@ ModelImporter:
     3300438: BigBowl.Coping.005
     3300440: BigBowl.Coping.006
     3300442: Deck_Main.010
+    3300444: BananaPeel.Coping
+    3300446: Coping
+    3300448: EastTransition.Coping
+    3300450: EastTransition.Coping.001
+    3300452: Ledge_FlatDown.Grind
+    3300454: Ledge_FlatDown.Grind.001
+    3300456: Rail_FLatdown.Grind
+    3300458: SouthPad_Curve.Grind
+    3300460: SouthpadBank.Coping
+    3300462: SouthQP.Coping
+    3300464: Steepbank
+    3300466: SteepBank.Coping
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1180,6 +1229,18 @@ ModelImporter:
     4300438: BigBowl.Coping.005
     4300440: BigBowl.Coping.006
     4300442: Deck_Main.010
+    4300444: SouthQP.Coping
+    4300446: EastTransition.Coping
+    4300448: EastTransition.Coping.001
+    4300450: Steepbank
+    4300452: SteepBank.Coping
+    4300454: Rail_FLatdown.Grind
+    4300456: SouthPad_Curve.Grind
+    4300458: BananaPeel.Coping
+    4300460: Ledge_FlatDown.Grind.001
+    4300462: Ledge_FlatDown.Grind
+    4300464: Coping
+    4300466: SouthpadBank.Coping
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1402,6 +1463,18 @@ ModelImporter:
     6400438: BigBowl.Coping.005
     6400440: BigBowl.Coping.006
     6400442: Deck_Main.010
+    6400444: BananaPeel.Coping
+    6400446: Coping
+    6400448: EastTransition.Coping
+    6400450: EastTransition.Coping.001
+    6400452: Ledge_FlatDown.Grind
+    6400454: Ledge_FlatDown.Grind.001
+    6400456: Rail_FLatdown.Grind
+    6400458: SouthPad_Curve.Grind
+    6400460: SouthpadBank.Coping
+    6400462: SouthQP.Coping
+    6400464: Steepbank
+    6400466: SteepBank.Coping
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
