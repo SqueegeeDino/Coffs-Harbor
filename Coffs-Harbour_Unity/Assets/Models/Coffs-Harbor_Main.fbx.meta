@@ -1481,6 +1481,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: M_Concrete_Sidewalk
+    second: {fileID: 2100000, guid: e14094906c97ca14685d9ca91fe6ddb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: m_Concrete_Park_Grey
     second: {fileID: 2100000, guid: c2577de24efc263449c2909bbc27496f, type: 2}
   - first:
