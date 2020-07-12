@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1797678548
+CRC: 1617622205
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 360d41d43abad4be8cb8c2e9256e5d76
+    Hash: 473142263b17347473c4c8e01af20930
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 640aca2d263e3c95cf44744b78e9f3dc
+    Hash: b56aff6d33a99e3248cef01c30e91112
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,8 +27,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
-- Class: 89
-  Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
 - Class: 108
@@ -42,6 +40,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 0d7593b3a9277ac4696b20006c21dde2, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 9e58b2a5f02556c4897347a45818c57a, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
@@ -49,6 +49,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3df29e7cc05fbec4aa43e06ea875565d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4bd5e5ddd242bd64581fb5ed9c0e0507, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c6c2871f720b2af4e9210febdac74517, type: 3}
 - Class: 114
@@ -59,7 +61,7 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 205
   Script: {instanceID: 0}
-- Class: 258
+- Class: 220
   Script: {instanceID: 0}
 Assets:
 - Assets/Scenes/Coffs-Harbour.unity

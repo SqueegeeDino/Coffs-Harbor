@@ -36,11 +36,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap1:
         m_Texture: {fileID: 2800000, guid: de01cc8c6b7bbc142af85e8f8fb6ada3, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.5, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap2:
         m_Texture: {fileID: 2800000, guid: c3eb0166ac81df54ca154fec302e58fb, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.5, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap3:
         m_Texture: {fileID: 0}
@@ -187,11 +187,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap1:
-        m_Texture: {fileID: 2800000, guid: 9aaccd5b726d13640b34b76d12086f80, type: 3}
+        m_Texture: {fileID: 2800000, guid: f15d2685347c4ae489fe13e67d4a77c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap2:
-        m_Texture: {fileID: 2800000, guid: e1556588cc7b3c643a328fcc90d78f58, type: 3}
+        m_Texture: {fileID: 2800000, guid: f15d2685347c4ae489fe13e67d4a77c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap3:
@@ -406,8 +406,8 @@ Material:
     - _InitialBend: 1
     - _InvTilingScale: 1
     - _InvTilingScale0: 1
-    - _InvTilingScale1: 1
-    - _InvTilingScale2: 1
+    - _InvTilingScale1: 2
+    - _InvTilingScale2: 2
     - _InvTilingScale3: 1
     - _Ior: 1
     - _IridescenceMask: 1
