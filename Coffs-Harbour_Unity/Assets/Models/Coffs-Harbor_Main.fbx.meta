@@ -259,6 +259,14 @@ ModelImporter:
     100506: SouthQP.Coping
     100508: Steepbank
     100510: SteepBank.Coping
+    100512: Building
+    100514: Cube.006
+    100516: Cube.007
+    100518: Plane.046
+    100520: Building.CavanbahCentre
+    100522: Grass.Cavanbah
+    100524: Rail.Cavanbah
+    100526: Rail.Cavanbah.001
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -515,6 +523,14 @@ ModelImporter:
     400506: SouthQP.Coping
     400508: Steepbank
     400510: SteepBank.Coping
+    400512: Building
+    400514: Cube.006
+    400516: Cube.007
+    400518: Plane.046
+    400520: Building.CavanbahCentre
+    400522: Grass.Cavanbah
+    400524: Rail.Cavanbah
+    400526: Rail.Cavanbah.001
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -539,6 +555,10 @@ ModelImporter:
     2100042: m_Concrete_Park_Yellow
     2100044: m_Metal_Blue
     2100046: M_Concrete_Sidewalk
+    2100048: m_safetystrip
+    2100050: mat_walls.2
+    2100052: mat_stairs
+    2100054: mat_pillars
     2300000: BaseBolts
     2300002: BaseBolts.001
     2300004: BigBowl
@@ -773,6 +793,14 @@ ModelImporter:
     2300462: SouthQP.Coping
     2300464: Steepbank
     2300466: SteepBank.Coping
+    2300468: Building
+    2300470: Cube.006
+    2300472: Cube.007
+    2300474: Plane.046
+    2300476: Building.CavanbahCentre
+    2300478: Grass.Cavanbah
+    2300480: Rail.Cavanbah
+    2300482: Rail.Cavanbah.001
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -1007,6 +1035,14 @@ ModelImporter:
     3300462: SouthQP.Coping
     3300464: Steepbank
     3300466: SteepBank.Coping
+    3300468: Building
+    3300470: Cube.006
+    3300472: Cube.007
+    3300474: Plane.046
+    3300476: Building.CavanbahCentre
+    3300478: Grass.Cavanbah
+    3300480: Rail.Cavanbah
+    3300482: Rail.Cavanbah.001
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1241,6 +1277,14 @@ ModelImporter:
     4300462: Ledge_FlatDown.Grind
     4300464: Coping
     4300466: SouthpadBank.Coping
+    4300468: Building
+    4300470: Cube.006
+    4300472: Cube.007
+    4300474: Plane.046
+    4300476: Building.CavanbahCentre
+    4300478: Rail.Cavanbah.001
+    4300480: Grass.Cavanbah
+    4300482: Rail.Cavanbah
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1475,6 +1519,14 @@ ModelImporter:
     6400462: SouthQP.Coping
     6400464: Steepbank
     6400466: SteepBank.Coping
+    6400468: Building
+    6400470: Cube.006
+    6400472: Cube.007
+    6400474: Plane.046
+    6400476: Building.CavanbahCentre
+    6400478: Grass.Cavanbah
+    6400480: Rail.Cavanbah
+    6400482: Rail.Cavanbah.001
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
