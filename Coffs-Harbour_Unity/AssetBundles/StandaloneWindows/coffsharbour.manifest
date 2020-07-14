@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 696603802
+CRC: 848568865
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8fdced356525d3b5d1c599d761c9d8fd
+    Hash: 4c75bda319b4e647b1c0c69a5781da2d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b56aff6d33a99e3248cef01c30e91112
+    Hash: 6c5b555fd30517f4a2380e519f76ecf1
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -18,6 +18,8 @@ ClassTypes:
 - Class: 23
   Script: {instanceID: 0}
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 29
   Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
@@ -57,11 +59,19 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 - Class: 157
+  Script: {instanceID: 0}
+- Class: 193
   Script: {instanceID: 0}
 - Class: 205
   Script: {instanceID: 0}
 - Class: 220
+  Script: {instanceID: 0}
+- Class: 228
+  Script: {instanceID: 0}
+- Class: 363
   Script: {instanceID: 0}
 Assets:
 - Assets/Scenes/Coffs-Harbour.unity
