@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 848568865
+CRC: 4250070629
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4c75bda319b4e647b1c0c69a5781da2d
+    Hash: fc61a2ae793b38c4391e03edf6f101d8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6c5b555fd30517f4a2380e519f76ecf1
+    Hash: c18d354cca6be1b4ee023d57bce2fb45
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,20 +29,26 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 2150ee00179b2f4418ea8b21a7e98eea, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 598e68924c9f6324bbfd049d3bae754c, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0d7593b3a9277ac4696b20006c21dde2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9e58b2a5f02556c4897347a45818c57a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 29b00527f85bb3346a4d2cb710971587, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
 - Class: 114
@@ -54,12 +60,20 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 4bd5e5ddd242bd64581fb5ed9c0e0507, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: c6c2871f720b2af4e9210febdac74517, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af41b5cb1e60453381ec6e9ed0409554, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 136
+  Script: {instanceID: 0}
+- Class: 154
+  Script: {instanceID: 0}
+- Class: 156
   Script: {instanceID: 0}
 - Class: 157
   Script: {instanceID: 0}
@@ -67,11 +81,15 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 205
   Script: {instanceID: 0}
+- Class: 218
+  Script: {instanceID: 0}
 - Class: 220
   Script: {instanceID: 0}
 - Class: 228
   Script: {instanceID: 0}
 - Class: 363
+  Script: {instanceID: 0}
+- Class: 1953259897
   Script: {instanceID: 0}
 Assets:
 - Assets/Scenes/Coffs-Harbour.unity

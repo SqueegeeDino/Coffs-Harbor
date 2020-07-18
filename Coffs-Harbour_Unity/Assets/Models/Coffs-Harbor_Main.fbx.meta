@@ -276,6 +276,11 @@ ModelImporter:
     100540: EastPlanter_Round.Grind.001
     100542: MiniQP.Grind
     100544: NurbsPath.Grind
+    100546: NurbsPath.Slappy
+    100548: 'NurbsPath.SLappy '
+    100550: Plane.SLappy
+    100552: Plane.Slappy
+    100554: Sidewalk.Slappy
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -549,6 +554,11 @@ ModelImporter:
     400540: EastPlanter_Round.Grind.001
     400542: MiniQP.Grind
     400544: NurbsPath.Grind
+    400546: NurbsPath.Slappy
+    400548: 'NurbsPath.SLappy '
+    400550: Plane.SLappy
+    400552: Plane.Slappy
+    400554: Sidewalk.Slappy
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -829,6 +839,11 @@ ModelImporter:
     2300496: EastPlanter_Round.Grind.001
     2300498: MiniQP.Grind
     2300500: NurbsPath.Grind
+    2300502: NurbsPath.Slappy
+    2300504: 'NurbsPath.SLappy '
+    2300506: Plane.SLappy
+    2300508: Plane.Slappy
+    2300510: Sidewalk.Slappy
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -1080,6 +1095,11 @@ ModelImporter:
     3300496: EastPlanter_Round.Grind.001
     3300498: MiniQP.Grind
     3300500: NurbsPath.Grind
+    3300502: NurbsPath.Slappy
+    3300504: 'NurbsPath.SLappy '
+    3300506: Plane.SLappy
+    3300508: Plane.Slappy
+    3300510: Sidewalk.Slappy
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1331,6 +1351,11 @@ ModelImporter:
     4300496: EastPlanter.gRIND
     4300498: NurbsPath.Grind
     4300500: Circle.Grind
+    4300502: Sidewalk.Slappy
+    4300504: Plane.SLappy
+    4300506: Plane.Slappy
+    4300508: 'NurbsPath.SLappy '
+    4300510: NurbsPath.Slappy
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1582,6 +1607,11 @@ ModelImporter:
     6400496: EastPlanter_Round.Grind.001
     6400498: MiniQP.Grind
     6400500: NurbsPath.Grind
+    6400502: NurbsPath.Slappy
+    6400504: 'NurbsPath.SLappy '
+    6400506: Plane.SLappy
+    6400508: Plane.Slappy
+    6400510: Sidewalk.Slappy
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
