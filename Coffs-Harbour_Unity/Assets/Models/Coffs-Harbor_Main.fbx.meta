@@ -267,6 +267,15 @@ ModelImporter:
     100522: Grass.Cavanbah
     100524: Rail.Cavanbah
     100526: Rail.Cavanbah.001
+    100528: Circle.Grind
+    100530: CurvedSteps_North.Grind
+    100532: EastPlanter.Grind
+    100534: EastPlanter.gRIND
+    100536: EastPlanter.Grind.001
+    100538: EastPlanter_Round.Grind
+    100540: EastPlanter_Round.Grind.001
+    100542: MiniQP.Grind
+    100544: NurbsPath.Grind
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -531,6 +540,15 @@ ModelImporter:
     400522: Grass.Cavanbah
     400524: Rail.Cavanbah
     400526: Rail.Cavanbah.001
+    400528: Circle.Grind
+    400530: CurvedSteps_North.Grind
+    400532: EastPlanter.Grind
+    400534: EastPlanter.gRIND
+    400536: EastPlanter.Grind.001
+    400538: EastPlanter_Round.Grind
+    400540: EastPlanter_Round.Grind.001
+    400542: MiniQP.Grind
+    400544: NurbsPath.Grind
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -559,6 +577,7 @@ ModelImporter:
     2100050: mat_walls.2
     2100052: mat_stairs
     2100054: mat_pillars
+    2100056: Street_Atlas
     2300000: BaseBolts
     2300002: BaseBolts.001
     2300004: BigBowl
@@ -801,6 +820,15 @@ ModelImporter:
     2300478: Grass.Cavanbah
     2300480: Rail.Cavanbah
     2300482: Rail.Cavanbah.001
+    2300484: Circle.Grind
+    2300486: CurvedSteps_North.Grind
+    2300488: EastPlanter.Grind
+    2300490: EastPlanter.gRIND
+    2300492: EastPlanter.Grind.001
+    2300494: EastPlanter_Round.Grind
+    2300496: EastPlanter_Round.Grind.001
+    2300498: MiniQP.Grind
+    2300500: NurbsPath.Grind
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -1043,6 +1071,15 @@ ModelImporter:
     3300478: Grass.Cavanbah
     3300480: Rail.Cavanbah
     3300482: Rail.Cavanbah.001
+    3300484: Circle.Grind
+    3300486: CurvedSteps_North.Grind
+    3300488: EastPlanter.Grind
+    3300490: EastPlanter.gRIND
+    3300492: EastPlanter.Grind.001
+    3300494: EastPlanter_Round.Grind
+    3300496: EastPlanter_Round.Grind.001
+    3300498: MiniQP.Grind
+    3300500: NurbsPath.Grind
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1285,6 +1322,15 @@ ModelImporter:
     4300478: Rail.Cavanbah.001
     4300480: Grass.Cavanbah
     4300482: Rail.Cavanbah
+    4300484: MiniQP.Grind
+    4300486: CurvedSteps_North.Grind
+    4300488: EastPlanter_Round.Grind.001
+    4300490: EastPlanter_Round.Grind
+    4300492: EastPlanter.Grind.001
+    4300494: EastPlanter.Grind
+    4300496: EastPlanter.gRIND
+    4300498: NurbsPath.Grind
+    4300500: Circle.Grind
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1527,6 +1573,15 @@ ModelImporter:
     6400478: Grass.Cavanbah
     6400480: Rail.Cavanbah
     6400482: Rail.Cavanbah.001
+    6400484: Circle.Grind
+    6400486: CurvedSteps_North.Grind
+    6400488: EastPlanter.Grind
+    6400490: EastPlanter.gRIND
+    6400492: EastPlanter.Grind.001
+    6400494: EastPlanter_Round.Grind
+    6400496: EastPlanter_Round.Grind.001
+    6400498: MiniQP.Grind
+    6400500: NurbsPath.Grind
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
@@ -1603,7 +1658,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

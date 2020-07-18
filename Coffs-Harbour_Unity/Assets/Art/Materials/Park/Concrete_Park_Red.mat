@@ -187,11 +187,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap1:
-        m_Texture: {fileID: 2800000, guid: f15d2685347c4ae489fe13e67d4a77c3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c0a3a4b22b833646b07623f2b130d39, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap2:
-        m_Texture: {fileID: 2800000, guid: f15d2685347c4ae489fe13e67d4a77c3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c0a3a4b22b833646b07623f2b130d39, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap3:
@@ -457,8 +457,8 @@ Material:
     - _Smoothness3: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMax0: 1
-    - _SmoothnessRemapMax1: 1
-    - _SmoothnessRemapMax2: 0.8676294
+    - _SmoothnessRemapMax1: 0.14961886
+    - _SmoothnessRemapMax2: 0.21379864
     - _SmoothnessRemapMax3: 1
     - _SmoothnessRemapMin: 0
     - _SmoothnessRemapMin0: 0
