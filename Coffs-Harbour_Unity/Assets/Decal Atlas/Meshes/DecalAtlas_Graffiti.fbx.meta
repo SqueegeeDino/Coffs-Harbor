@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 710811f0a7a3afe46b5b18acd8ff0876
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Graffiti.001
+    100004: Graffiti.002
+    100006: Graffiti.003
+    100008: Graffiti.004
+    100010: Graffiti.005
+    100012: Graffiti.006
+    100014: Graffiti.007
+    100016: Graffiti.008
+    100018: Graffiti.009
+    100020: Graffiti.010
+    100022: Graffiti.011
+    100024: Graffiti.012
+    100026: Graffiti.013
+    100028: Graffiti.014
+    400000: //RootNode
+    400002: Graffiti.001
+    400004: Graffiti.002
+    400006: Graffiti.003
+    400008: Graffiti.004
+    400010: Graffiti.005
+    400012: Graffiti.006
+    400014: Graffiti.007
+    400016: Graffiti.008
+    400018: Graffiti.009
+    400020: Graffiti.010
+    400022: Graffiti.011
+    400024: Graffiti.012
+    400026: Graffiti.013
+    400028: Graffiti.014
+    2100000: Graffiti
+    2300000: Graffiti.001
+    2300002: Graffiti.002
+    2300004: Graffiti.003
+    2300006: Graffiti.004
+    2300008: Graffiti.005
+    2300010: Graffiti.006
+    2300012: Graffiti.007
+    2300014: Graffiti.008
+    2300016: Graffiti.009
+    2300018: Graffiti.010
+    2300020: Graffiti.011
+    2300022: Graffiti.012
+    2300024: Graffiti.013
+    2300026: Graffiti.014
+    3300000: Graffiti.001
+    3300002: Graffiti.002
+    3300004: Graffiti.003
+    3300006: Graffiti.004
+    3300008: Graffiti.005
+    3300010: Graffiti.006
+    3300012: Graffiti.007
+    3300014: Graffiti.008
+    3300016: Graffiti.009
+    3300018: Graffiti.010
+    3300020: Graffiti.011
+    3300022: Graffiti.012
+    3300024: Graffiti.013
+    3300026: Graffiti.014
+    4300000: Graffiti.001
+    4300002: Graffiti.002
+    4300004: Graffiti.003
+    4300006: Graffiti.004
+    4300008: Graffiti.005
+    4300010: Graffiti.006
+    4300012: Graffiti.007
+    4300014: Graffiti.008
+    4300016: Graffiti.009
+    4300018: Graffiti.010
+    4300020: Graffiti.011
+    4300022: Graffiti.012
+    4300024: Graffiti.013
+    4300026: Graffiti.014
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
