@@ -281,6 +281,7 @@ ModelImporter:
     100550: Plane.SLappy
     100552: Plane.Slappy
     100554: Sidewalk.Slappy
+    100556: ShadeCover_Struts.001
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -559,6 +560,7 @@ ModelImporter:
     400550: Plane.SLappy
     400552: Plane.Slappy
     400554: Sidewalk.Slappy
+    400556: ShadeCover_Struts.001
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -588,6 +590,7 @@ ModelImporter:
     2100052: mat_stairs
     2100054: mat_pillars
     2100056: Street_Atlas
+    2100058: m_lightbult
     2300000: BaseBolts
     2300002: BaseBolts.001
     2300004: BigBowl
@@ -844,6 +847,7 @@ ModelImporter:
     2300506: Plane.SLappy
     2300508: Plane.Slappy
     2300510: Sidewalk.Slappy
+    2300512: ShadeCover_Struts.001
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -1100,6 +1104,7 @@ ModelImporter:
     3300506: Plane.SLappy
     3300508: Plane.Slappy
     3300510: Sidewalk.Slappy
+    3300512: ShadeCover_Struts.001
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1356,6 +1361,7 @@ ModelImporter:
     4300506: Plane.Slappy
     4300508: 'NurbsPath.SLappy '
     4300510: NurbsPath.Slappy
+    4300512: ShadeCover_Struts.001
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1612,6 +1618,7 @@ ModelImporter:
     6400506: Plane.SLappy
     6400508: Plane.Slappy
     6400510: Sidewalk.Slappy
+    6400512: ShadeCover_Struts.001
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
