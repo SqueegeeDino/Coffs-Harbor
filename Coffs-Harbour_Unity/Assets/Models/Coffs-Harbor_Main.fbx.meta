@@ -282,6 +282,9 @@ ModelImporter:
     100552: Plane.Slappy
     100554: Sidewalk.Slappy
     100556: ShadeCover_Struts.001
+    100558: Dunny
+    100560: Dunny.Grind
+    100562: ColesSet.Grind
     400000: BaseBolts
     400002: BaseBolts.001
     400004: BigBowl
@@ -561,6 +564,9 @@ ModelImporter:
     400552: Plane.Slappy
     400554: Sidewalk.Slappy
     400556: ShadeCover_Struts.001
+    400558: Dunny
+    400560: Dunny.Grind
+    400562: ColesSet.Grind
     2100000: No Name
     2100002: SatView
     2100004: None.001
@@ -848,6 +854,9 @@ ModelImporter:
     2300508: Plane.Slappy
     2300510: Sidewalk.Slappy
     2300512: ShadeCover_Struts.001
+    2300514: Dunny
+    2300516: Dunny.Grind
+    2300518: ColesSet.Grind
     3300000: BaseBolts
     3300002: BaseBolts.001
     3300004: BigBowl
@@ -1105,6 +1114,9 @@ ModelImporter:
     3300508: Plane.Slappy
     3300510: Sidewalk.Slappy
     3300512: ShadeCover_Struts.001
+    3300514: Dunny
+    3300516: Dunny.Grind
+    3300518: ColesSet.Grind
     4300000: flatbottom
     4300002: SatView
     4300004: Skater.001
@@ -1362,6 +1374,9 @@ ModelImporter:
     4300508: 'NurbsPath.SLappy '
     4300510: NurbsPath.Slappy
     4300512: ShadeCover_Struts.001
+    4300514: Dunny
+    4300516: Dunny.Grind
+    4300518: ColesSet.Grind
     6400000: BaseBolts
     6400002: BaseBolts.001
     6400004: BigBowl
@@ -1619,6 +1634,9 @@ ModelImporter:
     6400508: Plane.Slappy
     6400510: Sidewalk.Slappy
     6400512: ShadeCover_Struts.001
+    6400514: Dunny
+    6400516: Dunny.Grind
+    6400518: ColesSet.Grind
     20500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
