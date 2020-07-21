@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1973784052}
   - component: {fileID: 1973784051}
   m_Layer: 12
-  m_Name: GameObject
+  m_Name: Grind
   m_TagString: Grind_Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,12 +69,12 @@ MonoBehaviour:
   spline:
     points:
     - _type: 0
-      position: {x: 20.516417, y: 0.60886675, z: -45.81786}
+      position: {x: -30.903757, y: -0.58632326, z: -84.790665}
       color: {r: 1, g: 1, b: 1, a: 1}
-      normal: {x: 0, y: 1, z: -0.000000075497894}
+      normal: {x: 0, y: 1, z: 0.00000016292068}
       size: 1
-      tangent: {x: 20.516417, y: 0.60886675, z: -45.81786}
-      tangent2: {x: 20.516417, y: 0.60886675, z: -45.81786}
+      tangent: {x: -30.903757, y: -0.58632326, z: -84.790665}
+      tangent2: {x: -30.903757, y: -0.58632326, z: -84.790665}
     closed: 0
     type: 3
     linearAverageDirection: 1
@@ -92,24 +92,24 @@ MonoBehaviour:
       m_RotationOrder: 4
     sampleRate: 10
   _rawSamples:
-  - position: {x: 0, y: 0, z: 0}
-    up: {x: 0, y: 1, z: 0}
-    forward: {x: 0, y: 0, z: 1}
+  - position: {x: 102.84035, y: 2.3904297, z: 77.9456}
+    up: {x: 0, y: 1, z: -0.00000047683716}
+    forward: {x: 0, y: 0.00000047683716, z: 1}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0
   _transformedSamples:
-  - position: {x: 0, y: 0, z: 0}
-    up: {x: 0, y: 1, z: 0}
-    forward: {x: 0, y: 0, z: 1}
+  - position: {x: 154.26053, y: 3.5856586, z: 116.9184}
+    up: {x: 0, y: 1, z: -0.00000071525574}
+    forward: {x: 0, y: 0.00000071525574, z: 1}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0
   sampleCollection:
     samples:
-    - position: {x: 0, y: 0, z: 0}
-      up: {x: 0, y: 1, z: 0}
-      forward: {x: 0, y: 0, z: 1}
+    - position: {x: 154.26053, y: 3.5856586, z: 116.9184}
+      up: {x: 0, y: 1, z: -0.00000071525574}
+      forward: {x: 0, y: 0.00000071525574, z: 1}
       color: {r: 1, g: 1, b: 1, a: 1}
       size: 1
       percent: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
   hasSamples: 1
   pointsDirty: 00
   _optimizeAngleThreshold: 0.5
-  _space: 0
+  _space: 1
   _sampleMode: 0
   subscribers: []
   nodes: []
