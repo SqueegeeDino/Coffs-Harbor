@@ -1,101 +1,281 @@
 fileFormatVersion: 2
 guid: ff055e869b0ceb242af60c16e1258efc
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: map_4.osm_areas_pedestrian
-    100004: map_4.osm_buildings
-    100006: map_4.osm_buildings.001
-    100008: map_4.osm_forest
-    100010: map_4.osm_paths_cycleway
-    100012: map_4.osm_paths_footway
-    100014: map_4.osm_roads_residential
-    100016: map_4.osm_roads_service
-    100018: map_4.osm_roads_tertiary
-    100020: map_4.osm_vegetation
-    100022: map_4.osm_water
-    100024: Skater.001
-    100026: Terrain
-    100028: Terrain_envelope
-    100030: Terrain.001
-    400000: //RootNode
-    400002: map_4.osm_areas_pedestrian
-    400004: map_4.osm_buildings
-    400006: map_4.osm_buildings.001
-    400008: map_4.osm_forest
-    400010: map_4.osm_paths_cycleway
-    400012: map_4.osm_paths_footway
-    400014: map_4.osm_roads_residential
-    400016: map_4.osm_roads_service
-    400018: map_4.osm_roads_tertiary
-    400020: map_4.osm_vegetation
-    400022: map_4.osm_water
-    400024: Skater.001
-    400026: Terrain
-    400028: Terrain_envelope
-    400030: Terrain.001
-    2100000: None.001
-    2100002: wall
-    2100004: roof
-    2100006: roads_tertiary
-    2100008: roads_residential
-    2100010: water
-    2100012: forest
-    2100014: paths_cycleway
-    2100016: roads_service
-    2100018: paths_footway
-    2100020: vegetation
-    2100022: areas_pedestrian
-    2100024: No Name
-    2300000: map_4.osm_areas_pedestrian
-    2300002: map_4.osm_buildings
-    2300004: map_4.osm_buildings.001
-    2300006: map_4.osm_forest
-    2300008: map_4.osm_paths_cycleway
-    2300010: map_4.osm_paths_footway
-    2300012: map_4.osm_roads_residential
-    2300014: map_4.osm_roads_service
-    2300016: map_4.osm_roads_tertiary
-    2300018: map_4.osm_vegetation
-    2300020: map_4.osm_water
-    2300022: Skater.001
-    2300024: Terrain
-    2300026: Terrain_envelope
-    2300028: Terrain.001
-    3300000: map_4.osm_areas_pedestrian
-    3300002: map_4.osm_buildings
-    3300004: map_4.osm_buildings.001
-    3300006: map_4.osm_forest
-    3300008: map_4.osm_paths_cycleway
-    3300010: map_4.osm_paths_footway
-    3300012: map_4.osm_roads_residential
-    3300014: map_4.osm_roads_service
-    3300016: map_4.osm_roads_tertiary
-    3300018: map_4.osm_vegetation
-    3300020: map_4.osm_water
-    3300022: Skater.001
-    3300024: Terrain
-    3300026: Terrain_envelope
-    3300028: Terrain.001
-    4300000: Skater.001
-    4300002: map_4.osm_buildings
-    4300004: map_4.osm_roads_tertiary
-    4300006: map_4.osm_roads_residential
-    4300008: map_4.osm_water
-    4300010: map_4.osm_forest
-    4300012: map_4.osm_paths_cycleway
-    4300014: map_4.osm_roads_service
-    4300016: map_4.osm_paths_footway
-    4300018: map_4.osm_vegetation
-    4300020: map_4.osm_areas_pedestrian
-    4300022: map_4.osm_buildings.001
-    4300024: Terrain
-    4300026: Terrain_envelope
-    4300028: Terrain.001
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: map_4.osm_areas_pedestrian
+  - first:
+      1: 100004
+    second: map_4.osm_buildings
+  - first:
+      1: 100006
+    second: map_4.osm_buildings.001
+  - first:
+      1: 100008
+    second: map_4.osm_forest
+  - first:
+      1: 100010
+    second: map_4.osm_paths_cycleway
+  - first:
+      1: 100012
+    second: map_4.osm_paths_footway
+  - first:
+      1: 100014
+    second: map_4.osm_roads_residential
+  - first:
+      1: 100016
+    second: map_4.osm_roads_service
+  - first:
+      1: 100018
+    second: map_4.osm_roads_tertiary
+  - first:
+      1: 100020
+    second: map_4.osm_vegetation
+  - first:
+      1: 100022
+    second: map_4.osm_water
+  - first:
+      1: 100024
+    second: Skater.001
+  - first:
+      1: 100026
+    second: Terrain
+  - first:
+      1: 100028
+    second: Terrain_envelope
+  - first:
+      1: 100030
+    second: Terrain.001
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: map_4.osm_areas_pedestrian
+  - first:
+      4: 400004
+    second: map_4.osm_buildings
+  - first:
+      4: 400006
+    second: map_4.osm_buildings.001
+  - first:
+      4: 400008
+    second: map_4.osm_forest
+  - first:
+      4: 400010
+    second: map_4.osm_paths_cycleway
+  - first:
+      4: 400012
+    second: map_4.osm_paths_footway
+  - first:
+      4: 400014
+    second: map_4.osm_roads_residential
+  - first:
+      4: 400016
+    second: map_4.osm_roads_service
+  - first:
+      4: 400018
+    second: map_4.osm_roads_tertiary
+  - first:
+      4: 400020
+    second: map_4.osm_vegetation
+  - first:
+      4: 400022
+    second: map_4.osm_water
+  - first:
+      4: 400024
+    second: Skater.001
+  - first:
+      4: 400026
+    second: Terrain
+  - first:
+      4: 400028
+    second: Terrain_envelope
+  - first:
+      4: 400030
+    second: Terrain.001
+  - first:
+      21: 2100000
+    second: None.001
+  - first:
+      21: 2100002
+    second: wall
+  - first:
+      21: 2100004
+    second: roof
+  - first:
+      21: 2100006
+    second: roads_tertiary
+  - first:
+      21: 2100008
+    second: roads_residential
+  - first:
+      21: 2100010
+    second: water
+  - first:
+      21: 2100012
+    second: forest
+  - first:
+      21: 2100014
+    second: paths_cycleway
+  - first:
+      21: 2100016
+    second: roads_service
+  - first:
+      21: 2100018
+    second: paths_footway
+  - first:
+      21: 2100020
+    second: vegetation
+  - first:
+      21: 2100022
+    second: areas_pedestrian
+  - first:
+      21: 2100024
+    second: No Name
+  - first:
+      23: 2300000
+    second: map_4.osm_areas_pedestrian
+  - first:
+      23: 2300002
+    second: map_4.osm_buildings
+  - first:
+      23: 2300004
+    second: map_4.osm_buildings.001
+  - first:
+      23: 2300006
+    second: map_4.osm_forest
+  - first:
+      23: 2300008
+    second: map_4.osm_paths_cycleway
+  - first:
+      23: 2300010
+    second: map_4.osm_paths_footway
+  - first:
+      23: 2300012
+    second: map_4.osm_roads_residential
+  - first:
+      23: 2300014
+    second: map_4.osm_roads_service
+  - first:
+      23: 2300016
+    second: map_4.osm_roads_tertiary
+  - first:
+      23: 2300018
+    second: map_4.osm_vegetation
+  - first:
+      23: 2300020
+    second: map_4.osm_water
+  - first:
+      23: 2300022
+    second: Skater.001
+  - first:
+      23: 2300024
+    second: Terrain
+  - first:
+      23: 2300026
+    second: Terrain_envelope
+  - first:
+      23: 2300028
+    second: Terrain.001
+  - first:
+      33: 3300000
+    second: map_4.osm_areas_pedestrian
+  - first:
+      33: 3300002
+    second: map_4.osm_buildings
+  - first:
+      33: 3300004
+    second: map_4.osm_buildings.001
+  - first:
+      33: 3300006
+    second: map_4.osm_forest
+  - first:
+      33: 3300008
+    second: map_4.osm_paths_cycleway
+  - first:
+      33: 3300010
+    second: map_4.osm_paths_footway
+  - first:
+      33: 3300012
+    second: map_4.osm_roads_residential
+  - first:
+      33: 3300014
+    second: map_4.osm_roads_service
+  - first:
+      33: 3300016
+    second: map_4.osm_roads_tertiary
+  - first:
+      33: 3300018
+    second: map_4.osm_vegetation
+  - first:
+      33: 3300020
+    second: map_4.osm_water
+  - first:
+      33: 3300022
+    second: Skater.001
+  - first:
+      33: 3300024
+    second: Terrain
+  - first:
+      33: 3300026
+    second: Terrain_envelope
+  - first:
+      33: 3300028
+    second: Terrain.001
+  - first:
+      43: 4300000
+    second: Skater.001
+  - first:
+      43: 4300002
+    second: map_4.osm_buildings
+  - first:
+      43: 4300004
+    second: map_4.osm_roads_tertiary
+  - first:
+      43: 4300006
+    second: map_4.osm_roads_residential
+  - first:
+      43: 4300008
+    second: map_4.osm_water
+  - first:
+      43: 4300010
+    second: map_4.osm_forest
+  - first:
+      43: 4300012
+    second: map_4.osm_paths_cycleway
+  - first:
+      43: 4300014
+    second: map_4.osm_roads_service
+  - first:
+      43: 4300016
+    second: map_4.osm_paths_footway
+  - first:
+      43: 4300018
+    second: map_4.osm_vegetation
+  - first:
+      43: 4300020
+    second: map_4.osm_areas_pedestrian
+  - first:
+      43: 4300022
+    second: map_4.osm_buildings.001
+  - first:
+      43: 4300024
+    second: Terrain
+  - first:
+      43: 4300026
+    second: Terrain_envelope
+  - first:
+      43: 4300028
+    second: Terrain.001
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -128,25 +308,27 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -155,10 +337,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -168,13 +350,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
