@@ -354,7 +354,7 @@ MonoBehaviour:
     min: 0
   indirectDiffuseIntensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.25
     min: 0
 --- !u!114 &-3206500548598711997
 MonoBehaviour:
