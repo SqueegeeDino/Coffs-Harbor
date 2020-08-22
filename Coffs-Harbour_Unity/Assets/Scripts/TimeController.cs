@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Rendering;
+using UnityEngine.Assertions;
 
 public class TimeController : MonoBehaviour
 {
     public Animation sunAnim;
     public Slider TODSlider;
+    public GameObject skyVolume;
+    public VolumeProfile skyVolumeProfile;
     public GameObject[] nightLights;
 
     private void Start()
@@ -57,6 +61,10 @@ public class TimeController : MonoBehaviour
                 }
             }
         }
-
+    }
+    public void VolumeTest()
+    {
+        
+        Debug.Log("Current volume overrides are: " + skyVolumeProfile.components);
     }
 }
