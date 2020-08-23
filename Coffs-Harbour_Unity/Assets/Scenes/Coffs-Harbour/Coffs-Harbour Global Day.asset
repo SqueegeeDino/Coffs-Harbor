@@ -665,8 +665,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   exposure:
-    m_OverrideState: 0
-    m_Value: -1.71
+    m_OverrideState: 1
+    m_Value: 0
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -802,17 +802,17 @@ MonoBehaviour:
     min: 0
     max: 1
   horizonTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.20518868, g: 0.2338378, b: 0.2735849, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
     hdr: 0
-    showAlpha: 0
-    showEyeDropper: 0
+    showAlpha: 1
+    showEyeDropper: 1
   zenithTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.072089694, g: 0.08865657, b: 0.11320752, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
     hdr: 0
-    showAlpha: 0
-    showEyeDropper: 0
+    showAlpha: 1
+    showEyeDropper: 1
   horizonZenithShift:
     m_OverrideState: 0
     m_Value: -0.67
