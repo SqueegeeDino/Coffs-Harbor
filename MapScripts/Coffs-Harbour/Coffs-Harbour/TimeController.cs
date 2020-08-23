@@ -20,20 +20,30 @@ public class TimeController : MonoBehaviour
     float lerpDuration = 600;
     float lerpValue;
 
+    float exposureLerpTimeElapsed;
+    public float exposureLerpDuration = 1;
+    float exposureLerpValue;
+
+    public float HighExposure;
+    public float LowExposure;
+
     float startValue = 0;
     float endValue = 1;
 
-    public object Slider_Value { get; private set; }
+    //public object Slider_Value { get; private set; }
+    private float sliderLastValue;
 
     private void Start()
     {
         Debug.Log("[Coffs-Harbor] Start");
 
-        // On start, initialize the animation, and freeze playback
+        // On start, initialize the animation, and freeze playback, then run the Play function
         sunAnim.Play("SunAnimation");
         sunAnim["SunAnimation"].speed = 0f;
         Play();
         float timeElapsed = 0;
+
+        //StartCoroutine(TimeCheckLerp());
 
         // Disable all lights on start
         foreach (GameObject i in nightLights)
@@ -42,16 +52,18 @@ public class TimeController : MonoBehaviour
         }
     }
 
+    #region Void Methods
+    // Voids for calling from buttons
     public void Pause()
     {
         TODSlider.interactable = true;
-        StopCoroutine(Lerp());
+        StopCoroutine(PrimaryLerp());
         play = false;
     }
     public void Play()
     {
         TODSlider.interactable = false;
-        StartCoroutine(Lerp());
+        StartCoroutine(PrimaryLerp());
         play = true;
     }
     public void Day()
@@ -62,7 +74,9 @@ public class TimeController : MonoBehaviour
     {
         lerpValue = 0.45f;
     }
+    #endregion
 
+    // Update is called every frame
     void Update()
     {
         sunAnim["SunAnimation"].normalizedTime = lerpValue;
@@ -73,39 +87,121 @@ public class TimeController : MonoBehaviour
         }
     }
 
-    IEnumerator Lerp()
+    // Coroutine driving time cycle
+    IEnumerator PrimaryLerp()
     {
         Debug.Log("[Coffs Harbour] Start Coroutine");
-
-        //float timeElapsed = 0;
 
         while (timeElapsed < lerpDuration)
         {
             lerpValue = Mathf.Lerp(startValue, endValue, timeElapsed / lerpDuration);
             timeElapsed += Time.deltaTime;
 
-            //yield return null;
             yield return new WaitUntil(() => play);
         }
 
         lerpValue = endValue;
 
+        // Reset lerp for looping
         if (lerpValue == endValue)
         {
             timeElapsed = 0;
             lerpValue = startValue;
         }
     }
+    /*
+    IEnumerator TimeCheckLerp()
+    {
+        if (lerpValue <= .3f)
+        {
+            StartCoroutine(LerpDown());
+
+            Debug.Log("Lerpdown .3");
+
+            yield break;
+        }
+        else
+        {
+            if (lerpValue >= .7f)
+            {
+                StartCoroutine(LerpDown());
+
+                Debug.Log("LerpDown .7");
+
+                yield break;
+            }
+            else
+            {
+                if (lerpValue < .7f)
+                {
+                    if (lerpValue > .3f)
+                    {
+                        StartCoroutine(LerpUp());
+
+                        Debug.Log("LerpUp");
+
+                        yield break;
+                    }
+                }
+            }
+
+        }
+
+        Debug.Log("TimeCheckLerpBroken");
+    }
+    IEnumerator LerpUp()
+    {
+        while (exposureLerpTimeElapsed < exposureLerpDuration)
+        {
+            exposureLerpValue = Mathf.Lerp(LowExposure, HighExposure, exposureLerpTimeElapsed / exposureLerpDuration);
+            exposureLerpTimeElapsed += Time.deltaTime;
+
+            Exposure exposure;
+            if (skyVolumeProfile.TryGet(out exposure))
+            {
+                exposure.fixedExposure.SetValue(new FloatParameter(exposureLerpValue, true));
+                Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
+            }
+
+            yield return null;
+        }
+
+        // Snaps value to HighExposure value, then pauses 1 frame, then resets time elapsed to allow lerp to run again
+        exposureLerpValue = HighExposure;
+        yield return null;
+        exposureLerpTimeElapsed = 0;
+        
+    }
+    IEnumerator LerpDown()
+    {
+        while (exposureLerpTimeElapsed < exposureLerpDuration)
+        {
+            exposureLerpValue = Mathf.Lerp(HighExposure, LowExposure, exposureLerpTimeElapsed / exposureLerpDuration);
+            exposureLerpTimeElapsed += Time.deltaTime;
+
+            Exposure exposure;
+            if (skyVolumeProfile.TryGet(out exposure))
+            {
+                exposure.fixedExposure.SetValue(new FloatParameter(exposureLerpValue, true));
+                Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
+            }
+
+            yield return null;
+        }
+
+        // Snaps value to LowExposure value, then pauses 1 frame, then resets time elapsed to allow lerp to run again
+        exposureLerpValue = LowExposure;
+        yield return null;
+        exposureLerpTimeElapsed = 0;
+    }
+    */
 
     #region Slider Change
     public void Slider_Changed(float Slider_Value)
     {
-        // Uncomment to debug the float of the slider value
-
-        // Debug.Log("[Coffs-Harbor] Slider Value" + Slider_Value);
-
-        // Sets the animation relative to the slider value
+        // Sets the lerp value relative to the slider value
         lerpValue = Slider_Value;
+        // This sets the timeElapsed value to remain in sync with the lerpValue
         timeElapsed = (lerpDuration * lerpValue);
 
         #region Light Control
@@ -116,12 +212,18 @@ public class TimeController : MonoBehaviour
             foreach (GameObject i in nightLights)
             {
                 i.SetActive(false);
-
-                Exposure exposure;
-                if (skyVolumeProfile.TryGet(out exposure))
-                {
-                    exposure.fixedExposure.SetValue(new FloatParameter(10.25f, true));
-                }
+            }
+            Exposure exposure;
+            if (skyVolumeProfile.TryGet(out exposure))
+            {
+                exposure.fixedExposure.SetValue(new FloatParameter(LowExposure, true));
+                Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
+            }
+            PhysicallyBasedSky physicallyBasedSky;
+            if (skyVolumeProfile.TryGet(out physicallyBasedSky))
+            {
+                //physicallyBasedSky.horizonTint.SetValue(new BoolParameter())
+                Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
             }
         }
         else
@@ -131,12 +233,6 @@ public class TimeController : MonoBehaviour
                 foreach (GameObject i in nightLights)
                 {
                     i.SetActive(false);
-
-                    Exposure exposure;
-                    if (skyVolumeProfile.TryGet(out exposure))
-                    {
-                        exposure.fixedExposure.SetValue(new FloatParameter(10.25f, true));
-                    }
                 }
             }
             else
@@ -144,12 +240,6 @@ public class TimeController : MonoBehaviour
                 foreach (GameObject i in nightLights)
                 {
                     i.SetActive(true);
-
-                    Exposure exposure;
-                    if (skyVolumeProfile.TryGet(out exposure))
-                    {
-                        exposure.fixedExposure.SetValue(new FloatParameter(12.5f, true));
-                    }
                 }
             }
         }
@@ -159,14 +249,25 @@ public class TimeController : MonoBehaviour
     #region Volume Debug
     public void VolumeTest()
     {
+
         Debug.Log("Magic Button Pressed");
-
-        var log = "Exposure values are: ";
-
         Exposure exposure;
         if (skyVolumeProfile.TryGet(out exposure))
         {
-            exposure.fixedExposure.SetValue(new FloatParameter(15.0f, true));
+            exposure.fixedExposure.SetValue(new FloatParameter(exposureLerpValue, true));
+            Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
+        }
+        PhysicallyBasedSky physicallyBasedSky;
+        if (skyVolumeProfile.TryGet(out physicallyBasedSky))
+        {
+            //physicallyBasedSky.horizonTint.SetValue(new BoolParameter())
+            Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
+        }
+        /*
+        Exposure exposure;
+        if (skyVolumeProfile.TryGet(out exposure))
+        {
+            StartCoroutine(LerpUp());
 
             log += exposure.displayName + Environment.NewLine;
             log += "Exposure Mode: " + exposure.mode + Environment.NewLine;
@@ -176,8 +277,8 @@ public class TimeController : MonoBehaviour
         {
             Debug.Log("No Exposure override found");
         }
-
-        Debug.Log(log);
+        */
+        //Debug.Log(log);
     }
     #endregion
 }
