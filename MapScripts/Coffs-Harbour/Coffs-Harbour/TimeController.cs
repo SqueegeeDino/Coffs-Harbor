@@ -15,6 +15,7 @@ public class TimeController : MonoBehaviour
     public GameObject[] nightLights;
 
     bool play;
+    public Color darkSky = new Color(0.205f, 0.234f, 0.274f, 1.000f);
 
     float timeElapsed;
     float lerpDuration = 600;
@@ -217,13 +218,13 @@ public class TimeController : MonoBehaviour
             if (skyVolumeProfile.TryGet(out exposure))
             {
                 exposure.fixedExposure.SetValue(new FloatParameter(LowExposure, true));
-                Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
+                //Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
             }
             PhysicallyBasedSky physicallyBasedSky;
             if (skyVolumeProfile.TryGet(out physicallyBasedSky))
             {
-                //physicallyBasedSky.horizonTint.SetValue(new BoolParameter())
-                Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
+                physicallyBasedSky.horizonTint = new ColorParameter(darkSky, true);
+                //Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
             }
         }
         else
@@ -260,7 +261,7 @@ public class TimeController : MonoBehaviour
         PhysicallyBasedSky physicallyBasedSky;
         if (skyVolumeProfile.TryGet(out physicallyBasedSky))
         {
-            //physicallyBasedSky.horizonTint.SetValue(new BoolParameter())
+            physicallyBasedSky.horizonTint = new ColorParameter(darkSky, true);
             Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
         }
         /*
