@@ -14,6 +14,9 @@ public class TimeController : MonoBehaviour
     public VolumeProfile skyVolumeProfile;
     public GameObject[] nightLights;
 
+    public GameObject volumeDay;
+    public GameObject volumeNight;
+
     bool play;
 
     public Color darkSky = new Color(0.3f, 0.3f, 0.4f, 1.000f);
@@ -217,16 +220,19 @@ public class TimeController : MonoBehaviour
             {
                 i.SetActive(false);
 
+                volumeDay.SetActive(true);
+                volumeNight.SetActive(false);
+
                 if (skyVolumeProfile.TryGet(out Exposure exposure))
                 {
-                    exposure.fixedExposure.SetValue(new FloatParameter(exposureDay, true));
+                    exposure.fixedExposure.value = exposureDay;
                     //Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
                 }
                 if (skyVolumeProfile.TryGet(out PhysicallyBasedSky physicallyBasedSky))
                 {
-                    physicallyBasedSky.horizonTint = new ColorParameter(lightSky, true);
-                    physicallyBasedSky.zenithTint = new ColorParameter(lightSky, true);
-                    physicallyBasedSky.exposure = new FloatParameter(skyExposureDay, true);
+                    physicallyBasedSky.horizonTint.value = lightSky;
+                    physicallyBasedSky.zenithTint.value = lightSky;
+                    physicallyBasedSky.exposure.value = skyExposureDay;
                     //Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
                 }
             }
@@ -239,18 +245,21 @@ public class TimeController : MonoBehaviour
                 {
                     i.SetActive(false);
 
+                    volumeDay.SetActive(true);
+                    volumeNight.SetActive(false);
+
                     Exposure exposure;
                     if (skyVolumeProfile.TryGet(out exposure))
                     {
-                        exposure.fixedExposure.SetValue(new FloatParameter(exposureDay, true));
+                        exposure.fixedExposure.value = exposureDay;
                         //Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
                     }
                     PhysicallyBasedSky physicallyBasedSky;
                     if (skyVolumeProfile.TryGet(out physicallyBasedSky))
                     {
-                        physicallyBasedSky.horizonTint = new ColorParameter(lightSky, true);
-                        physicallyBasedSky.zenithTint = new ColorParameter(lightSky, true);
-                        physicallyBasedSky.exposure = new FloatParameter(skyExposureDay, true);
+                        physicallyBasedSky.horizonTint.value = lightSky;
+                        physicallyBasedSky.zenithTint.value = lightSky;
+                        physicallyBasedSky.exposure.value = skyExposureDay;
                         //Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
                     }
                 }
@@ -260,18 +269,22 @@ public class TimeController : MonoBehaviour
                 foreach (GameObject i in nightLights)
                 {
                     i.SetActive(true);
+
+                    volumeDay.SetActive(false);
+                    volumeNight.SetActive(true);
+
                     Exposure exposure;
                     if (skyVolumeProfile.TryGet(out exposure))
                     {
-                        exposure.fixedExposure.SetValue(new FloatParameter(exposureNight, true));
+                        exposure.fixedExposure.value = exposureNight;
                         //Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
                     }
                     PhysicallyBasedSky physicallyBasedSky;
                     if (skyVolumeProfile.TryGet(out physicallyBasedSky))
                     {
-                        physicallyBasedSky.horizonTint = new ColorParameter(darkSky, true);
-                        physicallyBasedSky.zenithTint = new ColorParameter(darkSky, true);
-                        physicallyBasedSky.exposure = new FloatParameter(skyExposureNight, true);
+                        physicallyBasedSky.horizonTint.value = darkSky;
+                        physicallyBasedSky.zenithTint.value = darkSky;
+                        physicallyBasedSky.exposure.value = skyExposureNight;
                         //Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
                     }
                 }
@@ -285,17 +298,18 @@ public class TimeController : MonoBehaviour
     public void VolumeTest()
     {
 
-        Debug.Log("Magic Button Pressed");
+        Debug.Log("FUCK MY LIFE WHY WONT THIS WORK");
         Exposure exposure;
         if (skyVolumeProfile.TryGet(out exposure))
         {
-            exposure.fixedExposure.SetValue(new FloatParameter(exposureNight, true));
+            exposure.fixedExposure.value = 25f;
             Debug.Log("[Coffs Harbour] Exposure value = " + exposure.fixedExposure);
         }
         PhysicallyBasedSky physicallyBasedSky;
         if (skyVolumeProfile.TryGet(out physicallyBasedSky))
         {
-            physicallyBasedSky.horizonTint = new ColorParameter(darkSky, true);
+            physicallyBasedSky.horizonTint.value = darkSky;
+            physicallyBasedSky.exposure.value = skyExposureDay;
             Debug.Log("[Coffs Harbour] Horizon Tint = " + physicallyBasedSky.horizonTint);
         }
         /*
